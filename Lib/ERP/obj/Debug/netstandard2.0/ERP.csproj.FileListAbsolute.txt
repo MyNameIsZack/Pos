@@ -1,0 +1,10 @@
+E:\Project\POS\Lib\ERP\bin\Debug\netstandard2.0\ERP.deps.json
+E:\Project\POS\Lib\ERP\bin\Debug\netstandard2.0\ERP.dll
+E:\Project\POS\Lib\ERP\bin\Debug\netstandard2.0\ERP.pdb
+E:\Project\POS\Lib\ERP\obj\Debug\netstandard2.0\ERP.csproj.AssemblyReference.cache
+E:\Project\POS\Lib\ERP\obj\Debug\netstandard2.0\ERP.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\POS\Lib\ERP\obj\Debug\netstandard2.0\ERP.AssemblyInfoInputs.cache
+E:\Project\POS\Lib\ERP\obj\Debug\netstandard2.0\ERP.AssemblyInfo.cs
+E:\Project\POS\Lib\ERP\obj\Debug\netstandard2.0\ERP.csproj.CoreCompileInputs.cache
+E:\Project\POS\Lib\ERP\obj\Debug\netstandard2.0\ERP.dll
+E:\Project\POS\Lib\ERP\obj\Debug\netstandard2.0\ERP.pdb

@@ -1,0 +1,10 @@
+E:\Project\POS\Lib\Base\bin\Debug\netstandard2.0\Base.deps.json
+E:\Project\POS\Lib\Base\bin\Debug\netstandard2.0\Base.dll
+E:\Project\POS\Lib\Base\bin\Debug\netstandard2.0\Base.pdb
+E:\Project\POS\Lib\Base\obj\Debug\netstandard2.0\Base.csproj.AssemblyReference.cache
+E:\Project\POS\Lib\Base\obj\Debug\netstandard2.0\Base.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\POS\Lib\Base\obj\Debug\netstandard2.0\Base.AssemblyInfoInputs.cache
+E:\Project\POS\Lib\Base\obj\Debug\netstandard2.0\Base.AssemblyInfo.cs
+E:\Project\POS\Lib\Base\obj\Debug\netstandard2.0\Base.csproj.CoreCompileInputs.cache
+E:\Project\POS\Lib\Base\obj\Debug\netstandard2.0\Base.dll
+E:\Project\POS\Lib\Base\obj\Debug\netstandard2.0\Base.pdb

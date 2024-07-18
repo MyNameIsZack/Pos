@@ -31,7 +31,7 @@ namespace FOH
 
         private async Task<int> SendDataAsync(int Url)
         {
-            await Task.Delay(1000); // Replaces Thread.Sleep(5000)
+            await Task.Delay(5000); // Replaces Thread.Sleep(5000)
             return Url;
         }
     }

@@ -36,9 +36,45 @@ builder.Services.AddSwaggerGen(c =>
 
 
     //新增文檔
+    c.SwaggerDoc("Common", new OpenApiInfo
+    {
+        Title = "Common API",
+        Version = "v1",
+        Description = "This is the first version of My API",
+        TermsOfService = new Uri("https://example.com/terms"),
+        Contact = new OpenApiContact
+        {
+            Name = "API Support",
+            Email = "support@example.com",
+            Url = new Uri("https://example.com/contact")
+        },
+        License = new OpenApiLicense
+        {
+            Name = "MIT License",
+            Url = new Uri("https://opensource.org/licenses/MIT")
+        }
+    });
     c.SwaggerDoc("ERP", new OpenApiInfo
     {
         Title = "ERP API",
+        Version = "v1",
+        Description = "This is the first version of My API",
+        TermsOfService = new Uri("https://example.com/terms"),
+        Contact = new OpenApiContact
+        {
+            Name = "API Support",
+            Email = "support@example.com",
+            Url = new Uri("https://example.com/contact")
+        },
+        License = new OpenApiLicense
+        {
+            Name = "MIT License",
+            Url = new Uri("https://opensource.org/licenses/MIT")
+        }
+    });
+    c.SwaggerDoc("OMS", new OpenApiInfo
+    {
+        Title = "OMS API",
         Version = "v1",
         Description = "This is the first version of My API",
         TermsOfService = new Uri("https://example.com/terms"),
@@ -108,7 +144,42 @@ builder.Services.AddSwaggerGen(c =>
             Url = new Uri("https://opensource.org/licenses/MIT")
         }
     });
-
+    c.SwaggerDoc("TMS", new OpenApiInfo
+    {
+        Title = "Common API",
+        Version = "v1",
+        Description = "This is the first version of My API",
+        TermsOfService = new Uri("https://example.com/terms"),
+        Contact = new OpenApiContact
+        {
+            Name = "API Support",
+            Email = "support@example.com",
+            Url = new Uri("https://example.com/contact")
+        },
+        License = new OpenApiLicense
+        {
+            Name = "MIT License",
+            Url = new Uri("https://opensource.org/licenses/MIT")
+        }
+    });
+    c.SwaggerDoc("WMS", new OpenApiInfo
+    {
+        Title = "Common API",
+        Version = "v1",
+        Description = "This is the first version of My API",
+        TermsOfService = new Uri("https://example.com/terms"),
+        Contact = new OpenApiContact
+        {
+            Name = "API Support",
+            Email = "support@example.com",
+            Url = new Uri("https://example.com/contact")
+        },
+        License = new OpenApiLicense
+        {
+            Name = "MIT License",
+            Url = new Uri("https://opensource.org/licenses/MIT")
+        }
+    });
 
     // 获取 XML 注释文件路径
     var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
@@ -124,10 +195,14 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
+        c.SwaggerEndpoint("/swagger/Common/swagger.json", "Common");
         c.SwaggerEndpoint("/swagger/ERP/swagger.json", "ERP");
+        c.SwaggerEndpoint("/swagger/OMS/swagger.json", "OMS");
         c.SwaggerEndpoint("/swagger/POS/swagger.json", "POS");
         c.SwaggerEndpoint("/swagger/CRM/swagger.json", "CRM");
         c.SwaggerEndpoint("/swagger/ThirdParty/swagger.json", "ThirdParty");
+        c.SwaggerEndpoint("/swagger/TMS/swagger.json", "TMS");
+        c.SwaggerEndpoint("/swagger/WMS/swagger.json", "WMS");
     });
 }
 

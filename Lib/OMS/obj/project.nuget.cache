@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "09+go6Y+D+pFQejlb4ckh6fD3dK9fzphSGhEKc7vtHNhThm1olqLDXMrCu8HIb0pL01+qGWAJFSao4/++TCtpQ==",
+  "success": true,
+  "projectFilePath": "E:\\Project\\POS\\Lib\\OMS\\OMS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0h4XNe3oN8H6hEHeFpIk/K9sWT3mq+F8GZaV/ZU7uEv44uxZ4FZ3qY/2TKLL3m/EdneSWU9JFXzkGOz/MYBm6Q==",
+  "success": true,
+  "projectFilePath": "E:\\Project\\POS\\Lib\\WMS\\WMS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
